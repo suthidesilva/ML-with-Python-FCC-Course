@@ -1,6 +1,4 @@
 # ML-with-Python-FCC-Course
-I did this python ML course as an independent study with **Dr. Tormey at College of Idaho, fall 2024**. These are all the project files for the FCC ML with Python course.
-
 This repository contains all the project files from the **Machine Learning with Python** course by FreeCodeCamp, completed as an independent study with **Dr. Tormey** at the College of Idaho in Fall 2024.
 
 ## Contents
