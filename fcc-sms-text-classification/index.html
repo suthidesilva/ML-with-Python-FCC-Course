@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS Classification Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="container">
+        <header class="header">
+            <h1>SMS Classification Visualizer</h1>
+            <p>Welcome! Use this website to explore SMS messages and classify them as "ham" or "spam." You can also type your own text to analyze it in real-time!</p>
+        </header>
+        <section class="ai-analysis">
+            <h2>Analyze Your Text</h2>
+            <p>Type a message below, and our AI will classify it as "ham" or "spam":</p>
+            <textarea id="user-input" placeholder="Type your message here..."></textarea>
+            <button id="analyze-btn">Analyze</button>
+            <div id="analysis-result"></div>
+        </section>
+        <footer>
+            <p>Made with ❤️ for SMS enthusiasts</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
