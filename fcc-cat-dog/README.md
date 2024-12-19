@@ -19,3 +19,5 @@ cats_and_dogs
 ```
 
 You can tweak epochs and batch size if you like, but it is not required.
+
+### Website demonstration - https://crashing-ash-buffalo-990.vscodeedu.app
