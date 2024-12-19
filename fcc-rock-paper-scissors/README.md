@@ -1,4 +1,4 @@
-Hey Suthi here,
+![image](https://github.com/user-attachments/assets/3a0715f9-fc15-4a9b-a4dc-fed8926e25bf)Hey Suthi here,
 
 For this challenge, you will create a program to play Rock, Paper, Scissors. A program that picks at random will usually win 50% of the time. To pass this challenge your program must play matches against four different bots, winning at least 60% of the games in each match.
 
@@ -35,5 +35,4 @@ Click the "run" button and `main.py` will run.
 
 The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience. If you uncomment the last line in `main.py`, the tests will run automatically whenever you hit the "run" button.
 
-### Website demonstration - https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fdog%2F&psig=AOvVaw0RggPlmThW3lHIgS6n__Es&ust=1734684445425000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNDLyqK5s4oDFQAAAAAdAAAAABAE![image](https://github.com/user-attachments/assets/28bce1ba-4bd1-4b02-ab02-bd6add113e3c)
-
+### Website demonstration - https://scarlet-charging-plane-607.vscodeedu.app/
