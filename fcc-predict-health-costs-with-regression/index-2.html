@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="glass-effect">
+        <h1 class="title">Healthcare Costs Tracker</h1>
+    </header>
+    <main>
+        <section id="instructions">
+            <p>
+                Welcome to the Healthcare Costs Tracker! Use the sliders below to adjust variables such as age, BMI, and number of children. 
+                The interactive 3D visualization dynamically updates to show how these factors affect estimated healthcare costs. 
+                Explore the data in an intuitive way and gain insights about the potential costs.
+            </p>
+        </section>
+        <div id="sliders-container">
+            <h2>Adjust Parameters</h2>
+            <div class="slider">
+                <label for="age">Age</label>
+                <input type="range" id="age" min="18" max="100" step="1">
+                <span id="age-value">18</span>
+            </div>
+            <div class="slider">
+                <label for="bmi">BMI</label>
+                <input type="range" id="bmi" min="15" max="40" step="0.1">
+                <span id="bmi-value">15.0</span>
+            </div>
+            <div class="slider">
+                <label for="children">Number of Children</label>
+                <input type="range" id="children" min="0" max="10" step="1">
+                <span id="children-value">0</span>
+            </div>
+        </div>
+        <div id="plot-container">
+            <h2>3D Visualization</h2>
+            <div id="3d-plot"></div>
+        </div>
+    </main>
+</body>
+</html>
