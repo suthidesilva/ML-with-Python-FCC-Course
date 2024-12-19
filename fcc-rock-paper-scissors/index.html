@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+</head>
+<body>
+    <button class="theme-toggle" id="themeToggle">🌙 Dark Mode</button>
+    
+    <div class="container">
+        <h1>Rock Paper Scissors AI</h1>
+        
+        <select id="botSelect">
+            <option value="quincy">Quincy</option>
+            <option value="abbey">Abbey</option>
+            <option value="kris">Kris</option>
+            <option value="mrugesh">Mrugesh</option>
+        </select>
+
+        <div class="game-area">
+            <div class="player-section">
+                <h2>Your Choice</h2>
+                <div class="choices">
+                    <button class="choice-btn" data-choice="R">✊</button>
+                    <button class="choice-btn" data-choice="P">✋</button>
+                    <button class="choice-btn" data-choice="S">✌️</button>
+                </div>
+            </div>
+            
+            <div class="bot-section">
+                <h2>AI's Choice</h2>
+                <div id="botChoice" style="font-size: 4rem; margin: 1rem;">❓</div>
+            </div>
+        </div>
+
+        <div class="score-board">
+            <div class="score">
+                Wins: <span id="wins">0</span>
+            </div>
+            <div class="score">
+                Ties: <span id="ties">0</span>
+            </div>
+            <div class="score">
+                Losses: <span id="losses">0</span>
+            </div>
+        </div>
+
+        <div class="history" id="gameHistory">
+            <!-- Game history will be populated here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
