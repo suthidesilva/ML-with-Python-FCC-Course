@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3a0715f9-fc15-4a9b-a4dc-fed8926e25bf)Hey Suthi here,
+Hey Suthi here,
 
 For this challenge, you will create a program to play Rock, Paper, Scissors. A program that picks at random will usually win 50% of the time. To pass this challenge your program must play matches against four different bots, winning at least 60% of the games in each match.
 
