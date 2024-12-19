@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woof Woof 🐶</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Pet Classifier</h1>
+            <p>Submit an image to find out if it's a 🐶 or 🐱!</p>
+        </header>
+        <main>
+            <form id="upload-form" enctype="multipart/form-data">
+                <input type="file" id="image-input" accept="image/*">
+                <button type="submit">Classify Image</button>
+            </form>
+            <div id="result-container"></div>
+        </main>
+    </div>
+    <canvas id="background-canvas"></canvas>
+</body>
+</html>
